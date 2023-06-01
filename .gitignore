@@ -1,0 +1,5 @@
+cython_debug/
+
+data/*
+*.pkl
+*.parquet

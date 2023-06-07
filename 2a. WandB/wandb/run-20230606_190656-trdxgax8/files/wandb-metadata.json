@@ -1,0 +1,66 @@
+{
+    "os": "Linux-5.15.0-73-generic-x86_64-with-glibc2.31",
+    "python": "3.9.16",
+    "heartbeatAt": "2023-06-07T00:06:57.638391",
+    "startedAt": "2023-06-07T00:06:56.697769",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--wandb_project",
+        "mlops_wandb",
+        "--wandb_entity",
+        "ludelaire",
+        "--raw_data_path",
+        "./data",
+        "--dest_path",
+        "./output"
+    ],
+    "state": "running",
+    "program": "/home/lu/Learning/mlops_zoomcamp/mlops_zoomcamp/2a. WandB/preprocess_data.py",
+    "codePath": "2a. WandB/preprocess_data.py",
+    "git": {
+        "remote": "https://github.com/ludelaire/mlops_zoomcamp.git",
+        "commit": "d56f11beecb46785e287d920d5a0dd34ceef86d3"
+    },
+    "email": "luisaalarcons30@gmail.com",
+    "root": "/home/lu/Learning/mlops_zoomcamp/mlops_zoomcamp",
+    "host": "compudeLu",
+    "username": "lu",
+    "executable": "/home/lu/Learning/mlops_zoomcamp/mlops_zoomcamp/.venv/bin/python3.9",
+    "cpu_count": 2,
+    "cpu_count_logical": 4,
+    "cpu_freq": {
+        "current": 1238.7640000000001,
+        "min": 1200.0,
+        "max": 2400.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1200.0,
+            "min": 1200.0,
+            "max": 2400.0
+        },
+        {
+            "current": 1200.0,
+            "min": 1200.0,
+            "max": 2400.0
+        },
+        {
+            "current": 1200.0,
+            "min": 1200.0,
+            "max": 2400.0
+        },
+        {
+            "current": 1355.056,
+            "min": 1200.0,
+            "max": 2400.0
+        }
+    ],
+    "disk": {
+        "total": 98.37489318847656,
+        "used": 79.69389343261719
+    },
+    "memory": {
+        "total": 11.087272644042969
+    }
+}

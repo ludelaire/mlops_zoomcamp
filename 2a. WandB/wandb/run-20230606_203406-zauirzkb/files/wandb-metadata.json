@@ -1,0 +1,64 @@
+{
+    "os": "Linux-5.15.0-73-generic-x86_64-with-glibc2.31",
+    "python": "3.9.16",
+    "heartbeatAt": "2023-06-07T01:34:06.924277",
+    "startedAt": "2023-06-07T01:34:06.031904",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--wandb_project",
+        "mlops_wandb",
+        "--wandb_entity",
+        "ludelaire",
+        "--data_artifact",
+        "ludelaire/mlops_wandb/NYC-Taxi:v0"
+    ],
+    "state": "running",
+    "program": "/home/lu/Learning/mlops_zoomcamp/mlops_zoomcamp/2a. WandB/sweep.py",
+    "codePath": "2a. WandB/sweep.py",
+    "git": {
+        "remote": "https://github.com/ludelaire/mlops_zoomcamp.git",
+        "commit": "d56f11beecb46785e287d920d5a0dd34ceef86d3"
+    },
+    "email": "luisaalarcons30@gmail.com",
+    "root": "/home/lu/Learning/mlops_zoomcamp/mlops_zoomcamp",
+    "host": "compudeLu",
+    "username": "lu",
+    "executable": "/home/lu/Learning/mlops_zoomcamp/mlops_zoomcamp/.venv/bin/python3.9",
+    "cpu_count": 2,
+    "cpu_count_logical": 4,
+    "cpu_freq": {
+        "current": 1611.114,
+        "min": 1200.0,
+        "max": 2400.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1500.0,
+            "min": 1200.0,
+            "max": 2400.0
+        },
+        {
+            "current": 1500.0,
+            "min": 1200.0,
+            "max": 2400.0
+        },
+        {
+            "current": 1319.524,
+            "min": 1200.0,
+            "max": 2400.0
+        },
+        {
+            "current": 1500.0,
+            "min": 1200.0,
+            "max": 2400.0
+        }
+    ],
+    "disk": {
+        "total": 98.37489318847656,
+        "used": 79.71346664428711
+    },
+    "memory": {
+        "total": 11.087272644042969
+    }
+}

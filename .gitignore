@@ -1,6 +1,4 @@
 cython_debug/
-
-data/*
 *.pkl
 *.csv
  */mlruns/*

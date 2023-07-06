@@ -1,6 +1,3 @@
-import os
-import pathlib
-from pathlib import Path
 import pickle
 import pandas as pd
 import numpy as np
@@ -13,14 +10,14 @@ import xgboost as xgb
 from prefect import flow, task
 
 
-""" current_dir = os.getcwd()
+"""current_dir = os.getcwd()
 TRAIN_PATH = os.path.join(current_dir.parent.absolute(), 'data', 'green_tripdata_2022-01.parquet')
 VAL_PATH = os.path.join(current_dir.parent.absolute(), 'data', 'green_tripdata_2022-02.parquet')
- """
+
 current_dir = Path(os.getcwd())  # current_dir has to be converted to Path object first!
 TRAIN_PATH = str(current_dir.parent.absolute()) + '/data/green_tripdata_2022-01.parquet'
 VAL_PATH = str(current_dir.parent.absolute()) + '/data/green_tripdata_2022-02.parquet'
-
+ """
 
 @task(retries=3, retry_delay_seconds=2)
 def read_data(filename: str) -> pd.DataFrame:
@@ -122,8 +119,8 @@ def train_best_model(
 
 @flow
 def main_flow(
-    train_path: str = str(TRAIN_PATH),
-    val_path: str = str(VAL_PATH),
+    train_path: str = '/home/lu/Learning/mlops_zoomcamp/mlops_zoomcamp/3. Orchestration/data/green_tripdata_2022-01.parquet',
+    val_path: str = '/home/lu/Learning/mlops_zoomcamp/mlops_zoomcamp/3. Orchestration/data/green_tripdata_2022-02.parquet',
 ) -> None:
     """The main training pipeline"""
 

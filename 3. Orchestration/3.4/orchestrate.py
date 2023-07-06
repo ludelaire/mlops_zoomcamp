@@ -122,8 +122,8 @@ def train_best_model(
 
 @flow
 def main_flow(
-    train_path = TRAIN_PATH,
-    val_path = VAL_PATH,
+    train_path: str = str(TRAIN_PATH),
+    val_path: str = str(VAL_PATH),
 ) -> None:
     """The main training pipeline"""
 

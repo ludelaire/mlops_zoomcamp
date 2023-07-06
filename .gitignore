@@ -4,3 +4,7 @@ data/*
 *.pkl
 *.csv
  */mlruns/*
+**/artifacts/
+**/mlruns/
+**/models/
+**/mlflow.db

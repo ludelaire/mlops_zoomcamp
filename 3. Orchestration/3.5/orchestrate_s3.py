@@ -132,8 +132,8 @@ Duration Prediction
 
 @flow
 def main_flow_s3(
-    train_path: str = "./data/green_tripdata_2021-01.parquet",
-    val_path: str = "./data/green_tripdata_2021-02.parquet",
+    train_path: str = '/home/lu/Learning/mlops_zoomcamp/mlops_zoomcamp/3. Orchestration/data/green_tripdata_2022-01.parquet',
+    val_path: str = '/home/lu/Learning/mlops_zoomcamp/mlops_zoomcamp/3. Orchestration/data/green_tripdata_2022-02.parquet',
 ) -> None:
     """The main training pipeline"""
 

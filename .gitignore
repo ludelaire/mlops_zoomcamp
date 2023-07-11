@@ -1,6 +1,8 @@
 cython_debug/
 *.pkl
 *.csv
+*.env
+*.pyc
  */mlruns/*
 **/artifacts/
 **/mlruns/

@@ -3,6 +3,7 @@ cython_debug/
 *.csv
 *.env
 *.pyc
+orchestrate.cpython-39.pyc
  */mlruns/*
 **/artifacts/
 **/mlruns/

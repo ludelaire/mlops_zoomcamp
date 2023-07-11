@@ -23,7 +23,7 @@ deployments:
   work_pool:
     name: mlops_module3
 - name: taxi_s3_data
-  entrypoint: /home/lu/Learning/mlops_zoomcamp/mlops_zoomcamp/3. Orchestration/3.5:main_flow_s3
+  entrypoint: /home/lu/Learning/mlops_zoomcamp/mlops_zoomcamp/3.Orchestration/3.5:main_flow_s3
   work_pool:
     name: mlops_module3
 

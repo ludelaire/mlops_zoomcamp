@@ -7,7 +7,7 @@ deployment = Deployment.build_from_flow(
     name="ride_duration_prediction",
     parameters={
         "taxi_type": "green",
-        "run_id": "e1efc53e9bd149078b0c12aeaa6365df",
+        "run_id": "682824de8ca349bc908f40268a891c34",
     },
     schedule=CronSchedule(cron="0 3 2 * *"),
     work_queue_name="ml",

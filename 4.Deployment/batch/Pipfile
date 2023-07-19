@@ -4,13 +4,16 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-scikit-learn = "==1.0.2"
-prefect = "==2.0b6"
+scikit-learn = "==1.2.2"
+prefect = "*"
 mlflow = "*"
 pandas = "*"
+numpy = "1.24.3"
+scipy = "1.10.1"
 boto3 = "*"
 pyarrow = "*"
 s3fs = "*"
+python-datetime = "*"
 
 [dev-packages]
 

@@ -2,7 +2,6 @@ import os
 import json
 import boto3
 import base64
-
 import mlflow
 
 kinesis_client = boto3.client('kinesis')
@@ -28,7 +27,7 @@ def prepare_features(ride):
 
 def predict(features):
     pred = model.predict(features)
-    return float(pred[0])
+    return float(pred[0])  # Lambda can't convert from ndarray to json, hence the transformation
 
 
 def lambda_handler(event, context):

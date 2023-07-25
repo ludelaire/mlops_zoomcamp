@@ -4,6 +4,7 @@ cython_debug/
 *.env
 *.pyc
 *.parquet
+office_hours
 orchestrate.cpython-39.pyc
  */mlruns/*
 **/artifacts/
